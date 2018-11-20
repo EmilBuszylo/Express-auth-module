@@ -11,6 +11,10 @@ router.post("/login", AuthContnroller.login);
 
 router.post("/logout", AuthContnroller.logout);
 
+router.post("/auth/forgot", AuthContnroller.forgotPassword);
+
+router.post("/auth/reset-password/:token", AuthContnroller.resetPassword);
+
 const storeRedirectToInSession = (req, res, next) => {
     const redirectTo = req.headers.referer;
     req.session.redirectTo = redirectTo;
