@@ -22,6 +22,7 @@ Express.js REST authorization app supported by MongoDB (I'm going to add MySql v
 
 ## In plans
 
--   add pass reminder by email,
+-   ~~add pass reminder by email~~,
+-   add template for reset password email,
 -   add simply example page,
 -   add second version with MySql instead MongoDB.
